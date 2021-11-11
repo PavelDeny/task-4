@@ -35,9 +35,9 @@ function menuOpen() {
    }
 
    burger.addEventListener('click',function(e){
-      burger.classList.add('active');
-      headerMenuBody.classList.add('active');
-      overLay.classList.add('active');
+      burger.classList.toggle('active');
+      headerMenuBody.classList.toggle('active');
+      overLay.classList.toggle('active');
    });
    
 
