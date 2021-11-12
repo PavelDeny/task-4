@@ -417,10 +417,10 @@ body {
 }
 
 .sidebar .menu__item-img {
-  width: 26px;
+  width: 22px;
   height: auto;
-  -o-object-fit: none;
-     object-fit: none;
+  -o-object-fit: cover;
+     object-fit: cover;
   -o-object-position: center;
      object-position: center;
 }
